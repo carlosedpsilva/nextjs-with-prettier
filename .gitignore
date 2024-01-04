@@ -1,0 +1,101 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ide
+.vscode
+
+## user-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+## aws user-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+## gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+## cmake
+cmake-build-*/
+
+## mongo explorer plugin
+.idea/**/mongoSettings.xml
+
+## file-based project format
+*.iws
+
+## intellij
+out/
+
+## mpeltonen/sbt-idea plugin
+.idea_modules/
+
+## jira plugin
+atlassian-ide-plugin.xml
+
+## cursive clojure plugin
+.idea/replstate.xml
+
+## sonarlint plugin
+.idea/sonarlint/
+
+## crashlytics plugin (for android studio and intellij)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+## editor-based rest client
+.idea/httpRequests
+
+## android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
